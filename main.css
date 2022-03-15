@@ -33,6 +33,13 @@ body{
     background-color: purple;
     transform: rotate(45deg);
 }
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 6rem solid transparent;
+    border-right: 6rem solid transparent;
+    border-bottom: 12rem solid blue;
+}
 .circle{
     background-color: green;
     margin-right: 3rem;
