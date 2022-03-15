@@ -1,0 +1,40 @@
+:root{
+    --clr-background:#ccc;
+    --clr-primary:white;
+}
+*,::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+}
+.container{
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    background-color: white;
+}
+.element{
+    margin: 3rem 0px;
+    width: 12rem;
+    height: 12rem;
+}
+.square{
+    background-color: red;
+    margin-left: 3rem;
+}
+.diamond{
+    background-color: purple;
+    transform: rotate(45deg);
+}
+.circle{
+    background-color: green;
+    margin-right: 3rem;
+    border-radius: 50%;
+}
